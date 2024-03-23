@@ -1,0 +1,52 @@
+2023-09-05T06:50:47+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php on line 49
+
+2023-09-05T06:50:55+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php on line 49
+
+2023-09-05T07:34:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_field() in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php:25
+Stack trace:
+#0 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/lib/acf_blocks_loader.php(100): include()
+#1 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(646): ACF_Blocks_Loader->block_render_callback(Array, '', false, 19, Object(WP_Block), Array)
+#2 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(569): acf_render_block(Array, '', false, 19, Object(WP_Block), Array)
+#3 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(502): acf_rendered_block(Array, '', false, 19, Object(WP_Block))
+#4 /home/xyzusnad/public_html/c in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php on line 25
+
+2023-09-05T07:34:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_field() in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php:25
+Stack trace:
+#0 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/lib/acf_blocks_loader.php(100): include()
+#1 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(646): ACF_Blocks_Loader->block_render_callback(Array, '', false, 19, Object(WP_Block), Array)
+#2 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(569): acf_render_block(Array, '', false, 19, Object(WP_Block), Array)
+#3 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(502): acf_rendered_block(Array, '', false, 19, Object(WP_Block))
+#4 /home/xyzusnad/public_html/c in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php on line 25
+
+2023-09-05T07:34:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_field() in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php:25
+Stack trace:
+#0 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/lib/acf_blocks_loader.php(100): include()
+#1 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(646): ACF_Blocks_Loader->block_render_callback(Array, '', false, 19, Object(WP_Block), Array)
+#2 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(569): acf_render_block(Array, '', false, 19, Object(WP_Block), Array)
+#3 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(502): acf_rendered_block(Array, '', false, 19, Object(WP_Block))
+#4 /home/xyzusnad/public_html/c in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php on line 25
+
+2023-09-05T07:34:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_field() in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php:25
+Stack trace:
+#0 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/lib/acf_blocks_loader.php(100): include()
+#1 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(646): ACF_Blocks_Loader->block_render_callback(Array, '', false, 19, Object(WP_Block), Array)
+#2 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(569): acf_render_block(Array, '', false, 19, Object(WP_Block), Array)
+#3 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(502): acf_rendered_block(Array, '', false, 19, Object(WP_Block))
+#4 /home/xyzusnad/public_html/c in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php on line 25
+
+2023-09-05T07:34:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_field() in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php:25
+Stack trace:
+#0 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/lib/acf_blocks_loader.php(100): include()
+#1 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(646): ACF_Blocks_Loader->block_render_callback(Array, '', false, 19, Object(WP_Block), Array)
+#2 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(569): acf_render_block(Array, '', false, 19, Object(WP_Block), Array)
+#3 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(502): acf_rendered_block(Array, '', false, 19, Object(WP_Block))
+#4 /home/xyzusnad/public_html/c in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php on line 25
+
+2023-09-05T07:34:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_field() in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php:25
+Stack trace:
+#0 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/lib/acf_blocks_loader.php(100): include()
+#1 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(646): ACF_Blocks_Loader->block_render_callback(Array, '', false, 19, Object(WP_Block), Array)
+#2 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(569): acf_render_block(Array, '', false, 19, Object(WP_Block), Array)
+#3 /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(502): acf_rendered_block(Array, '', false, 19, Object(WP_Block))
+#4 /home/xyzusnad/public_html/c in /home/xyzusnad/public_html/clickdesignsolutions.com/demo/neonexpress/wp-content/themes/neonexpress/template-parts/block/imagesection/block.php on line 25
+

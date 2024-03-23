@@ -1,0 +1,141 @@
+.ourstory {
+	padding: 50px 0;
+}
+
+.ourstory.ourstory_dark {
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.ourstory.ourstory_dark::before {
+	content: "";
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 0;
+}
+
+.ourstory.ourstory_dark .container {
+	position: relative;
+}
+
+.ourstory.ourstory_dark .ourstory-text-content {
+	max-width: 672px;
+	flex-basis: auto !important;
+}
+
+.ourstory.ourstory_left .container {
+	justify-content: flex-start;
+}
+
+.ourstory.ourstory_right .container {
+	justify-content: flex-end;
+}
+
+.ourstory.ourstory_secondary {
+	background-color: #1b0f2a;
+}
+
+.ourstory.ourstory_tertiary {
+	background-color: #120c19;
+}
+
+.ourstory .container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.ourstory .ourstory-text-content {
+	flex-basis: 100%;
+	margin-bottom: 50px;
+}
+
+.ourstory .ourstory-text-content > h2 {
+	font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.ourstory .ourstory-text-content > p {
+	font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.ourstory .ourstory-showcase {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 100%;
+}
+
+.ourstory .ourstory-showcase.ourstory-showcase_video .gradient-border,
+.ourstory .ourstory-showcase.ourstory-showcase_iframe .gradient-border {
+	width: 100%;
+}
+
+.ourstory .ourstory-showcase .ourstory-video {
+	width: 100%;
+}
+
+.ourstory .ourstory-showcase iframe {
+	width: 100%;
+}
+
+.ourstory .ourstory-showcase.ourstory-showcase_logo {
+	background-image: url(../../../assets/images/logo-bg.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.ourstory .ourstory-showcase img {
+	max-width: 100%;
+}
+
+.ourstory .ourstory-showcase.ourstory-showcase_logo img {
+	max-width: 80%;
+}
+
+
+@media screen and (min-width: 1200px) {
+	.ourstory {
+		padding: 100px 0;
+	}
+	
+	.ourstory .container {
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	.ourstory .ourstory-text-content {
+		flex-basis: 38%;
+		margin-bottom: 0;
+	}
+
+	.ourstory .ourstory-showcase {
+		flex-basis: 58.2%;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.ourstory .ourstory-text-content > h2 {
+		font-size: 66px;
+		line-height: 80px;
+		margin-bottom: 25px;
+	}
+
+	.ourstory .ourstory-text-content > p {
+		font-size: 20px;
+		line-height: 30px;
+	}
+}

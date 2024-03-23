@@ -1,0 +1,56 @@
+.quote {
+	padding: 50px 0;
+	position: relative;
+	background-color: #170f20;
+}
+
+.quote .container {
+	position: relative;
+	z-index: 1;
+}
+
+.quote::after {
+	position: absolute;
+	bottom: 7px;
+	display: block;
+	height: 117px;
+	width: 100%;
+	content: "";
+	background-image: url(../../../assets/images/logo-icon.png);
+	background-repeat: repeat;
+	background-size: contain;
+	z-index: 0;
+}
+
+.quote h2 {
+	font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 10px;
+	text-align: center;
+    text-transform: uppercase;
+}
+
+.quote p {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: -0.015em;
+	max-width: 1300px;
+	margin: 0 auto 32px;
+}
+
+@media screen and (min-width: 1200px) {
+	.quote {
+		padding: 100px 0;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.quote h2 {
+		font-size: 66px;
+		line-height: 80px;
+		margin-bottom: 25px;
+	}
+}

@@ -1,0 +1,81 @@
+.trustedby {
+	padding: 50px 0;
+}
+
+.trustedby h2 {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 40px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.trustedby p {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.015em;
+	margin-bottom: 20px;
+}
+
+.trustedby .trustedby-companies {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 20%;
+    row-gap: 30px;
+}
+
+.trustedby .trustedby-companies .trustedby-company-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.trustedby .trustedby-companies .swiper-slide {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.trustedby .trustedby-companies .swiper-wrapper {
+	align-items: center;
+}
+
+@media screen and (min-width: 544px) {
+	.trustedby .trustedby-companies {
+		gap: 12.5%;
+	}
+}
+
+@media screen and (min-width: 650px) {
+
+}
+
+@media screen and (min-width: 768px) {
+	.trustedby .trustedby-companies {
+		gap: 6.6%;
+		row-gap: 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.trustedby {
+		padding: 100px 0;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.trustedby h2 {
+		font-size: 66px;
+		line-height: 80px;
+		margin-bottom: 14px;
+	}
+	
+	.trustedby p {
+		font-size: 32px;
+		line-height: 36px;
+		margin-bottom: 42px;
+	}
+}

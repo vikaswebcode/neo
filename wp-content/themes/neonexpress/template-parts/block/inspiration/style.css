@@ -1,0 +1,4 @@
+.ct_slider img {
+    height: 300px !important;
+    object-fit: cover;
+}

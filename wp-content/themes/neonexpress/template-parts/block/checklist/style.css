@@ -1,0 +1,62 @@
+.hlist_row{
+    align-items: center;
+    justify-content: space-between;
+}
+.hlist_image-box{
+    display: flex;
+    align-items: center;
+}
+.hlist_image-box img {
+    max-width: 50px;
+    margin-right:10px;
+}
+.hlist_image-box h2 {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.checklist{ padding: 100px 0;}
+
+.checklist .heading{ color: var(--White, #FFF);
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 112.5% */ text-align: center;
+letter-spacing: -0.48px;}
+
+
+.listing ul{ display: flex; flex-wrap: wrap; list-style: none;}
+.listing ul li{ width: 50%; padding: 55px 0 0 70px; 
+color: var(--White, #FFF);
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 112.5% */
+letter-spacing: -0.48px;
+background: url( arrow.png) bottom left no-repeat ;
+    
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+
+/* Landscape phones and down */
+@media (max-width: 640px) {
+    
+.listing ul li{ width: 100%; padding: 20px 0 0 55px; 
+color: var(--White, #FFF);
+font-family: Montserrat;
+font-size: 24px; }
+    
+}

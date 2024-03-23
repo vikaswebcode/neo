@@ -1,0 +1,122 @@
+.contact {
+	padding: 50px 0;
+	background-color: #120C19;
+}
+
+.contact h2 {
+	font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact .column:nth-of-type(1) {
+	order: 1;
+}
+
+.contact .column:nth-of-type(2) {
+	order: 0;
+	margin-bottom: 50px;
+}
+
+.contact .site-logo {
+	max-width: 192px;
+	margin-bottom: 25px;
+}
+
+.contact-info {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.contact-info span.contact-info-address {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.contact-info > a {
+	display: flex;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contact-info a.contact-info-phone::before,
+.contact-info a.contact-info-email::before,
+.contact-info span.contact-info-address::before {
+	display: block;
+	width: 30px;
+	height: 30px;
+	content: "";
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-right: 15px;
+}
+
+.contact-info span::before {
+	background-image: url(../../../assets/images/map-marker.png);
+}
+
+.contact-info a.contact-info-phone::before {
+	background-image: url(../../../assets/images/phone.png);
+}
+
+.contact-info a.contact-info-email::before {
+	background-image: url(../../../assets/images/email.png);
+}
+
+.contact-info > a:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.contact-info .social-media-links {
+	margin-top: 40px;
+}
+
+.contact-info .social-media__icon {
+	margin-right: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+	.contact {
+		padding: 100px 0;
+	}
+
+	.contact .row {
+		justify-content: space-between;
+	}
+
+	.contact .column:nth-of-type(1) {
+		position: relative;
+		order: 0;
+		width: 51.2255%;
+	}
+
+	.contact .column:nth-of-type(1)::after {
+		position: absolute;
+		content: "";
+		background-color: #251A32;
+		width: 1px;
+		height: 450px;
+		top: -15px;
+		right: -20%;
+	}
+
+	.contact .column:nth-of-type(2) {
+		order: 1;
+		width: 30%;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.contact h2 {
+		font-size: 66px;
+		line-height: 80px;
+		margin-bottom: 60px;
+	}
+
+	.contact .column:nth-of-type(1)::after {
+		top: -38px;
+	}
+}

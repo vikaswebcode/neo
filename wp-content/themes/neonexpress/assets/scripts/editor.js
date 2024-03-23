@@ -1,0 +1,25 @@
+// wp.domReady( () => {
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+//     wp.blocks.unregisterBlockType( 'core/search' );
+// } );

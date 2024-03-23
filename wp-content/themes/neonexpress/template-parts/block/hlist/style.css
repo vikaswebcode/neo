@@ -1,0 +1,51 @@
+.hlist_row{
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 15px 0;
+}
+
+.hlist_image-box{
+    display: flex;
+    align-items: center;
+}
+.hlist_image-box img {
+    max-width: 50px;
+    margin-right:10px;
+}
+.hlist_image-box h2 {
+    color: var(--White, #FFF);
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 78.947% */
+letter-spacing: -0.57px;
+    
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+
+/* Landscape phones and down */
+@media (max-width: 640px) {
+    
+.hlist_image-box{ margin-bottom: 25px; }
+.hlist_image-box h2 {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+    
+}

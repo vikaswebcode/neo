@@ -1,0 +1,23 @@
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+// @import "~some-node-module";
+@import "~animate.css/animate.min.css";
+@import "~jquery-ui/dist/themes/base/jquery-ui.min.css";
+@import "~dropzone/dist/dropzone.css";
+
+/** Import project SCSS Variables **/
+@import "common/variables";
+
+/** Import everything from common folder **/
+@import "common/normalize";
+@import "common/global";
+@import "common/typography";
+
+/** Import everything from components folder **/
+
+/** Import everything from layouts folder **/
+@import "layouts/header";
